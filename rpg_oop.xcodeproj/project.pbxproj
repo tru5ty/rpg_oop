@@ -12,6 +12,8 @@
 		234401491BEACC4300EB2A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234401471BEACC4300EB2A7E /* Main.storyboard */; };
 		2344014B1BEACC4300EB2A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2344014A1BEACC4300EB2A7E /* Assets.xcassets */; };
 		2344014E1BEACC4300EB2A7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2344014C1BEACC4300EB2A7E /* LaunchScreen.storyboard */; };
+		234401561BEACE0A00EB2A7E /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234401551BEACE0A00EB2A7E /* Character.swift */; };
+		234401581BEAD02900EB2A7E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234401571BEAD02900EB2A7E /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2344014A1BEACC4300EB2A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2344014D1BEACC4300EB2A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2344014F1BEACC4300EB2A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234401551BEACE0A00EB2A7E /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		234401571BEAD02900EB2A7E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				2344014A1BEACC4300EB2A7E /* Assets.xcassets */,
 				2344014C1BEACC4300EB2A7E /* LaunchScreen.storyboard */,
 				2344014F1BEACC4300EB2A7E /* Info.plist */,
+				234401551BEACE0A00EB2A7E /* Character.swift */,
+				234401571BEAD02900EB2A7E /* Player.swift */,
 			);
 			path = rpg_oop;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234401581BEAD02900EB2A7E /* Player.swift in Sources */,
+				234401561BEACE0A00EB2A7E /* Character.swift in Sources */,
 				234401461BEACC4300EB2A7E /* ViewController.swift in Sources */,
 				234401441BEACC4300EB2A7E /* AppDelegate.swift in Sources */,
 			);
